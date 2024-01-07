@@ -1,0 +1,95 @@
+.reserve {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.418);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rContainer {
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  position: relative;
+}
+.rClose {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  color: gray;
+  cursor: pointer;
+}
+
+.rItem {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 20px;
+  background-color: rgb(244, 255, 253);
+}
+
+.rInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.rTitle {
+  font-weight: 500;
+}
+.rDesc {
+  font-weight: 400;
+  color: #9b9b9b;
+  font-size: 16px;
+  margin: 4px 0px;
+  min-width: 300px;
+  max-width: 300px;
+}
+.rMax {
+  font-size: 12px;
+  font-weight: 600;
+  margin: 4px 0px;
+}
+.rPrice {
+  font-weight: 500;
+}
+.rSelectedRoom {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  font-size: 8px;
+  width: 100%;
+}
+.room {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.room > label {
+  font-weight: 600;
+  font-size: 10px;
+  text-align: center;
+  width: 100%;
+}
+.room > input {
+  font-weight: 500;
+  height: 16px;
+  width: 16px;
+  cursor: pointer;
+}
+.rContainer > button {
+  width: 100%;
+  border: none;
+  margin: 20px 0px;
+  padding: 10px 20px;
+  background-color: #0071c2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
